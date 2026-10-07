@@ -1,0 +1,2 @@
+# app-ads.txt for Clear Clue Press apps. Must sit at the ROOT of the developer website: https://marafting.github.io/app-ads.txt
+google.com, pub-7820320537051950, DIRECT, f08c47fec0942fa0

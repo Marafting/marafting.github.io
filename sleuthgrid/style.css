@@ -1,0 +1,12 @@
+:root { --bg: #F7F3EC; --text: #1E2329; --muted: #58616C; --accent: #1F6F78; }
+@media (prefers-color-scheme: dark) { :root { --bg: #15171A; --text: #ECE7DF; --muted: #A9AFB7; --accent: #63B8B6; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.6 "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-family: Georgia, "DM Serif Display", serif; font-size: 2.2rem; line-height: 1.2; margin: 0.3em 0; }
+h2 { font-size: 1.2rem; margin-top: 2em; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+.lead { font-size: 1.2rem; }
+.icon { border-radius: 22px; }
+li { margin: 0.3em 0; }
